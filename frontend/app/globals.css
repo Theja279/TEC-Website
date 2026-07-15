@@ -41,8 +41,3 @@ body {
 * {
   -webkit-tap-highlight-color: transparent;
 }
-
-/* Fixed navbar anchor/header offset for hash navigation */
-html {
-  scroll-padding-top: 6rem; /* ~96px covers the fixed header */
-}

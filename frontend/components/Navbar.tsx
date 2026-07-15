@@ -30,7 +30,7 @@ export default function Navbar() {
   const navClassName = useMemo(
     () =>
       cn(
-        "fixed inset-x-0 top-0 z-50 transition-[background-color,border-color,box-shadow,color] duration-300",
+        "inset-x-0 top-0 z-50 transition-[background-color,border-color,box-shadow,color] duration-300",
         scrolled
           ? "bg-white border-b border-[#0F172A]/10 shadow-sm"
           : "bg-white border-b border-transparent",
